@@ -19,6 +19,16 @@ tool, can finally be clearly presented to decision-makers.
 # What makes a difference
 Comparing different models and algorithms to find the leader for this specific dataset. Solving a business problem starts from understanding everything about it. Understanding the nature of company's customer-base is a fundamental principle, hence said comparison - to address the problem swiftly and as accurately as possible.
 
+# Visualizations and dashboards
+
+![Strategic Dashboard](images/strategic_dashboard.png)
+![First Tactial Dashboard](images/1st_tactical_dashboard.png)
+![Second Tactical Dashboard](images/2nd_tactical_dashboard.png)
+![Operational Dashboard](images/operational_dashboard.png)
+![First Predictive Dashboard](images/1st_prediction_dashboard.png)
+
+![Second Predictive Dashboard](images/2nd_prediction_dashboard.png)
+
 # Tech stack and methodology
 1) Fundamentals:
 Language: Python
@@ -42,7 +52,7 @@ Deployment: PyInstaller
 # What does this repository contain
 1) "requirements.txt" - file with Python packages requirements necessary to run the app
 2) "inz_263807.pdf" - my bachelor's of engineering thesis which is a project documentation at the same time. It contains explanation of used technologies and evaluates received results
-3) "models" file folder - it contains pre-trained machine learning and deep learning models used in the project
+3) "images" file folder - it contains series of business dashboards addressing predefined business problem 
 4) "data_generation.ipynb" - first part of the process' pipeline. Acquires necessary data
 5) "data_processing.ipynb" - second part of the process' pipeline. Contains preprocessing data for further work and some of the EDA features. Produced plots in this part are not saved.
 7) "spam_filter.ipynb" - third part of the process' pipeline. Comparing machine learning algorithms and picking the best one to remove unnecessary entries
@@ -53,14 +63,12 @@ Deployment: PyInstaller
 13) "aplikacja.py" - every .ipynb file contained in a single .py file in form of an simple app. For those who like to skip theory for the results.
 14) "Pulpity.twbx" - last part and a crown jewel of the process' pipeline. A Tableau file containing series of dashboards with plots full of crucial for business executives informations
 
-# Visualizations and dashboards
-
-
 # Instruction on how to run the "aplikacja.py" app
 1) Initial requirements 
     - to run this app a Python version 3.12.10 is recommended. This is the one which was used
       in creating the project.
     - while downloading Python it is required to check "Add Python to PATH" option
+    - 
     - to ensure that program will run correctly, it is advised to double-check whether the
       "models" folder is located in the same catalogue as the project's script.
     - for the consideration of optimalization the script downloads only 1000 records, which is
@@ -69,13 +77,21 @@ Deployment: PyInstaller
     To prevent possible collisions and errors a virtual environment (venv) is recommended.
     - Step 1: Open the CMD inside the project's file folder
     - Step 2: Create virtual environment by typing:
-                "python -m venv env"
+                ```
+                python -m venv env
+                ```
     - Step 3: Acrivate the environment:
-                ".\env\Scripts\activate"
+                ```
+                .\env\Scripts\activate
+                ```
     - Step 4: Install required packages by typing this in the CMD:
-                "pip install -r requirements.txt"
+                ```
+                pip install -r requirements.txt
+                ```
 3) Running the app
     When everything previously mentioned is prepare, please run the application by typing this in the CMD:
-                 "python aplikacja.py"
+                ```
+                python aplikacja.py
+                ```
 4) Ending work with the project
     After ending work you can exit the window by pressing "X" or typing "exit" in the CMD. The products of this app's work should be three .hyper files intended to import into the "Pulpity.twbx" file to see pre-prepared visualizations 
