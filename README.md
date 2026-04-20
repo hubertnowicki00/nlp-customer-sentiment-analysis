@@ -26,16 +26,19 @@ Data manipulation: Pandas, NumPy
 Source: Steam API
 Tools: Requests, **JSON**, CSV
 3) Natural Language Processing:
+
     Preprocessing: **NLTK** (Tokenization, lemmatization, noise reduction (EDA))
 
     Spam filtering: **Scikit-learn** (TF-IDF vectorization, SGDClassifier, Logistic Regression)
 
     Sentiment analysis: **VADER** and **LinearSVC** from the lexical approaches, **BERT (Transformers)** and **Flair** from the deep learning ones
-5) Forecasting and trend analysis:
+4) Forecasting and trend analysis:
+
     Time-series modeling: **Prophet**, **Exponential Smoothing**
    
     Regression&Machine Learning: **XGBoost**, **LightGBM**, **Linear Regression**
-7) Visualization:
+5) Visualization:
+
     EDA: **Matplotlib**, **Seaborn**, **Plotly**
    
     BI tools: **Tableau**
