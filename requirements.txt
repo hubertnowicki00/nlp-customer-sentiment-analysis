@@ -1,0 +1,17 @@
+flair==0.15.1
+joblib==1.5.1
+lightgbm==4.6.0
+numpy==2.3.1
+pandas==2.3.0
+pantab==5.2.2
+prophet==1.2.1
+pyarrow==22.0.0
+requests==2.32.4
+scikit-learn==1.6.1
+scipy==1.16.1
+statsmodels==0.14.5
+tableauhyperapi==0.0.23576
+torch==2.9.1
+tqdm==4.67.1
+transformers==4.57.1
+xgboost==3.1.2
