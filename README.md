@@ -24,7 +24,7 @@ Environment: Jupyter Notebook
 Data manipulation: Pandas, NumPy
 2) Web Scraping:
 Source: Steam API
-Tools: Requests, **JSON**, CSV
+Tools: **Requests**, **JSON**, **CSV**
 3) Natural Language Processing:
 
     Preprocessing: **NLTK** (Tokenization, lemmatization, noise reduction (EDA))
