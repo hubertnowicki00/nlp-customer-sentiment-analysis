@@ -19,25 +19,28 @@ Comparing different models and algorithms to find the leader for this specific d
 
 # Tech stack and methodology
 1) Fundamentals:
-Language: Python
-Environment: Jupyter Notebook
-Data manipulation: Pandas, NumPy
-2) Web Scraping:
+
+    Language: Python
+
+    Environment: Jupyter Notebook
+
+    Data manipulation: Pandas, NumPy
+3) Web Scraping:
 Source: Steam API
 Tools: **Requests**, **JSON**, **CSV**
-3) Natural Language Processing:
+4) Natural Language Processing:
 
     Preprocessing: **NLTK** (Tokenization, lemmatization, noise reduction (EDA))
 
     Spam filtering: **Scikit-learn** (TF-IDF vectorization, SGDClassifier, Logistic Regression)
 
     Sentiment analysis: **VADER** and **LinearSVC** from the lexical approaches, **BERT (Transformers)** and **Flair** from the deep learning ones
-4) Forecasting and trend analysis:
+5) Forecasting and trend analysis:
 
     Time-series modeling: **Prophet**, **Exponential Smoothing**
    
     Regression&Machine Learning: **XGBoost**, **LightGBM**, **Linear Regression**
-5) Visualization:
+6) Visualization:
 
     EDA: **Matplotlib**, **Seaborn**, **Plotly**
    
